@@ -17,5 +17,7 @@ COPY ./app .
 
 # Configure ports
 EXPOSE 3000
+EXPOSE 5173
 
-CMD ["npx", "http-server", "-p", "3000"]
+# CMD ["npx", "http-server", "-p", "3000"]
+CMD ["npm", "run", "dev", "--", "--host"]
