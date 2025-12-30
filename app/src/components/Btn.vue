@@ -1,0 +1,19 @@
+<template>
+    <button
+        class="
+            px-2
+            transition
+            text-sm/6
+            bg-zinc-50
+            border-zinc-300
+            hover:bg-sky-50
+            hover:border-sky-400
+            hover:text-sky-600
+            text-zinc-800
+            border
+            rounded-sm
+        "
+    >
+        <slot />
+    </button>
+</template>
