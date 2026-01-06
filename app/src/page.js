@@ -1,8 +1,8 @@
 import './assets/page.css';
 import { createApp, ref } from 'vue';
-import Page from './Page.vue';
+import { default as PageApp } from './Page.vue';
 
-export class Builder {
+export class Page {
     /**
      * @param {String} selector CSS selector where to mount the page.
      * @param {Object} customConfig Custom configuration object.
@@ -14,7 +14,7 @@ export class Builder {
 
         this.config = ref(customConfig);
 
-        createApp(Page)
+        createApp(PageApp)
             .provide('config', this.config)
             .mount(selector);
     }
