@@ -1,8 +1,8 @@
 import './assets/canva.css';
 import { createApp, ref } from 'vue';
-import Canva from './Canva.vue';
+import { default as CanvaApp } from './Canva.vue';
 
-export class PagB {
+export class Canva {
     /**
      * @param {String} selector CSS selector where to mount the canva.
      * @param {Object} customConfig Custom configuration object.
@@ -13,7 +13,7 @@ export class PagB {
         }
 
         this.config = ref(customConfig);
-        createApp(Canva).provide('config', this.config).mount(selector);
+        createApp(CanvaApp).provide('config', this.config).mount(selector);
     }
 
     /**

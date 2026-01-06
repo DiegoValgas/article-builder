@@ -2,7 +2,7 @@ import './assets/page.css';
 import { createApp, ref } from 'vue';
 import Page from './Page.vue';
 
-export class PagB {
+export class Builder {
     /**
      * @param {String} selector CSS selector where to mount the page.
      * @param {Object} customConfig Custom configuration object.
