@@ -4,6 +4,7 @@
     import Dialog from '../Dialog.vue';
     import Section from '../Section.vue';
     import SectionItems from '../SectionItems.vue';
+    import { PhArrowLeft, PhArrowRight } from '@phosphor-icons/vue';
 
     const props = defineProps({
         parent: Number,

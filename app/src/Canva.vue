@@ -7,6 +7,7 @@
     import SectionItems from './components/SectionItems.vue';
     import SingleBtn from './components/SingleBtn.vue';
     import Page from './components/page/Page.vue';
+    import { PhEye, PhFloppyDisk, PhNotePencil } from '@phosphor-icons/vue';
 
     /** Properties */
     const config = inject('config');

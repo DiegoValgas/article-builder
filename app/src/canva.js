@@ -1,7 +1,6 @@
 import './assets/canva.css';
 import { createApp, ref } from 'vue';
 import Canva from './Canva.vue';
-import PhosphorIcons from '@phosphor-icons/vue';
 
 export class PagB {
     /**
@@ -14,11 +13,7 @@ export class PagB {
         }
 
         this.config = ref(customConfig);
-
-        createApp(Canva)
-            .provide('config', this.config)
-            .use(PhosphorIcons)
-            .mount(selector);
+        createApp(Canva).provide('config', this.config).mount(selector);
     }
 
     /**

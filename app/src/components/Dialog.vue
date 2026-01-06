@@ -3,6 +3,10 @@
     import Btn from './Btn.vue';
     import OptionBtn from './OptionBtn.vue';
     import Title from './items/Title.vue';
+    import {
+        PhArrowUDownLeft, PhColumns, PhImageSquare, PhMinus, PhPlus,
+        PhTextHOne, PhTextT
+    } from '@phosphor-icons/vue';
 
     const props = defineProps({index: Number|Array});
     const opened = ref(false);
@@ -56,12 +60,6 @@
                 <PhImageSquare :size="20" />
                 <span>Imagem</span>
             </OptionBtn>
-            <!--
-                <OptionBtn>
-                    <PhFilmStrip :size="20" />
-                    <span>Vídeo</span>
-                </OptionBtn>
-            -->
         </div>
 
         <div v-show="titles" class="-mb-3">

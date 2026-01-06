@@ -1,6 +1,9 @@
 <script setup>
     import { inject, ref, watch, provide, nextTick, computed } from 'vue';
     import SingleBtn from './SingleBtn.vue';
+    import {
+        PhArrowDown, PhArrowUp, PhFloppyDisk, PhNotePencil, PhTrash
+    } from '@phosphor-icons/vue';
 
     const props = defineProps({
         index: Number|Array,
