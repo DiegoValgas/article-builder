@@ -1,23 +1,22 @@
-import { createElementBlock as t, openBlock as e, renderSlot as w, createBlock as z, withCtx as A, defineComponent as M, inject as o, computed as s, mergeProps as k, createCommentVNode as y, createElementVNode as a, ref as S, provide as L, Fragment as P, withDirectives as b, createVNode as f, unref as H, vShow as x, renderList as D, createTextVNode as T, toDisplayString as E, watch as W, nextTick as K, normalizeClass as j, withKeys as Q, vModelText as X, createApp as Y } from "vue";
-import { _ as I, a as q, P as e0, b as a0, T as l0, c as t0 } from "./Page-LcUnlR2K.js";
+import { _ as W, c as t, o as e, r as w, a as z, w as A, d as M, i as o, b as u, e as y, f as a, m as k, g as S, p as L, h as b, j as f, v as C, u as H, F as P, k as D, l as q, n as T, t as F, q as I, s as K, x as j, y as Q, z as X, P as Y, A as e0, T as a0, B as l0, C as t0 } from "./Page-CLoUhGLY.js";
 const r0 = {}, o0 = { class: "px-2 transition text-sm/6 bg-zinc-50 border-zinc-300 hover:bg-sky-50 hover:border-sky-400 hover:text-sky-600 text-zinc-800 border rounded-sm" };
-function i0(u, l) {
+function n0(s, l) {
   return e(), t("button", o0, [
-    w(u.$slots, "default")
+    w(s.$slots, "default")
   ]);
 }
-const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
+const E = /* @__PURE__ */ W(r0, [["render", n0]]), B = {
   __name: "OptionBtn",
-  setup(u) {
-    return (l, i) => (e(), z(F, { class: "h-16 w-22 flex flex-col items-center justify-center text-sm/1 mb-3" }, {
+  setup(s) {
+    return (l, n) => (e(), z(E, { class: "h-16 w-22 flex flex-col items-center justify-center text-sm/1 mb-3" }, {
       default: A(() => [
         w(l.$slots, "default")
       ]),
       _: 3
     }));
   }
-}, n0 = ["width", "height", "fill", "transform"], u0 = { key: 0 }, s0 = /* @__PURE__ */ a("path", { d: "M208.49,152.49l-72,72a12,12,0,0,1-17,0l-72-72a12,12,0,0,1,17-17L116,187V40a12,12,0,0,1,24,0V187l51.51-51.52a12,12,0,0,1,17,17Z" }, null, -1), h0 = [
-  s0
+}, i0 = ["width", "height", "fill", "transform"], s0 = { key: 0 }, u0 = /* @__PURE__ */ a("path", { d: "M208.49,152.49l-72,72a12,12,0,0,1-17,0l-72-72a12,12,0,0,1,17-17L116,187V40a12,12,0,0,1,24,0V187l51.51-51.52a12,12,0,0,1,17,17Z" }, null, -1), h0 = [
+  u0
 ], v0 = { key: 1 }, d0 = /* @__PURE__ */ a("path", {
   d: "M200,144l-72,72L56,144Z",
   opacity: "0.2"
@@ -50,21 +49,21 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", u0, h0)) : r.value === "duotone" ? (e(), t("g", v0, c0)) : r.value === "fill" ? (e(), t("g", g0, m0)) : r.value === "light" ? (e(), t("g", V0, f0)) : r.value === "regular" ? (e(), t("g", Z0, A0)) : r.value === "thin" ? (e(), t("g", w0, k0)) : y("", !0)
-    ], 16, n0));
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", s0, h0)) : r.value === "duotone" ? (e(), t("g", v0, c0)) : r.value === "fill" ? (e(), t("g", g0, m0)) : r.value === "light" ? (e(), t("g", V0, f0)) : r.value === "regular" ? (e(), t("g", Z0, A0)) : r.value === "thin" ? (e(), t("g", w0, k0)) : y("", !0)
+    ], 16, i0));
   }
-}), x0 = ["width", "height", "fill", "transform"], C0 = { key: 0 }, L0 = /* @__PURE__ */ a("path", { d: "M228,128a12,12,0,0,1-12,12H69l51.52,51.51a12,12,0,0,1-17,17l-72-72a12,12,0,0,1,0-17l72-72a12,12,0,0,1,17,17L69,116H216A12,12,0,0,1,228,128Z" }, null, -1), S0 = [
+}), C0 = ["width", "height", "fill", "transform"], x0 = { key: 0 }, L0 = /* @__PURE__ */ a("path", { d: "M228,128a12,12,0,0,1-12,12H69l51.52,51.51a12,12,0,0,1-17,17l-72-72a12,12,0,0,1,0-17l72-72a12,12,0,0,1,17,17L69,116H216A12,12,0,0,1,228,128Z" }, null, -1), S0 = [
   L0
 ], B0 = { key: 1 }, N0 = /* @__PURE__ */ a("path", {
   d: "M112,56V200L40,128Z",
@@ -74,10 +73,10 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
   P0
 ], j0 = { key: 2 }, D0 = /* @__PURE__ */ a("path", { d: "M224,128a8,8,0,0,1-8,8H120v64a8,8,0,0,1-13.66,5.66l-72-72a8,8,0,0,1,0-11.32l72-72A8,8,0,0,1,120,56v64h96A8,8,0,0,1,224,128Z" }, null, -1), T0 = [
   D0
-], E0 = { key: 3 }, F0 = /* @__PURE__ */ a("path", { d: "M222,128a6,6,0,0,1-6,6H54.49l61.75,61.76a6,6,0,1,1-8.48,8.48l-72-72a6,6,0,0,1,0-8.48l72-72a6,6,0,0,1,8.48,8.48L54.49,122H216A6,6,0,0,1,222,128Z" }, null, -1), W0 = [
-  F0
-], I0 = { key: 4 }, q0 = /* @__PURE__ */ a("path", { d: "M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z" }, null, -1), U0 = [
-  q0
+], F0 = { key: 3 }, E0 = /* @__PURE__ */ a("path", { d: "M222,128a6,6,0,0,1-6,6H54.49l61.75,61.76a6,6,0,1,1-8.48,8.48l-72-72a6,6,0,0,1,0-8.48l72-72a6,6,0,0,1,8.48,8.48L54.49,122H216A6,6,0,0,1,222,128Z" }, null, -1), W0 = [
+  E0
+], q0 = { key: 4 }, I0 = /* @__PURE__ */ a("path", { d: "M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z" }, null, -1), U0 = [
+  I0
 ], G0 = { key: 5 }, O0 = /* @__PURE__ */ a("path", { d: "M220,128a4,4,0,0,1-4,4H49.66l65.17,65.17a4,4,0,0,1-5.66,5.66l-72-72a4,4,0,0,1,0-5.66l72-72a4,4,0,0,1,5.66,5.66L49.66,124H216A4,4,0,0,1,220,128Z" }, null, -1), R0 = [
   O0
 ], J0 = {
@@ -98,19 +97,19 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", C0, S0)) : r.value === "duotone" ? (e(), t("g", B0, _0)) : r.value === "fill" ? (e(), t("g", j0, T0)) : r.value === "light" ? (e(), t("g", E0, W0)) : r.value === "regular" ? (e(), t("g", I0, U0)) : r.value === "thin" ? (e(), t("g", G0, R0)) : y("", !0)
-    ], 16, x0));
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", x0, S0)) : r.value === "duotone" ? (e(), t("g", B0, _0)) : r.value === "fill" ? (e(), t("g", j0, T0)) : r.value === "light" ? (e(), t("g", F0, W0)) : r.value === "regular" ? (e(), t("g", q0, U0)) : r.value === "thin" ? (e(), t("g", G0, R0)) : y("", !0)
+    ], 16, C0));
   }
 }), Q0 = ["width", "height", "fill", "transform"], X0 = { key: 0 }, Y0 = /* @__PURE__ */ a("path", { d: "M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z" }, null, -1), e1 = [
   Y0
@@ -120,10 +119,10 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
 }, null, -1), t1 = /* @__PURE__ */ a("path", { d: "M221.66,122.34l-72-72A8,8,0,0,0,136,56v64H40a8,8,0,0,0,0,16h96v64a8,8,0,0,0,13.66,5.66l72-72A8,8,0,0,0,221.66,122.34ZM152,180.69V75.31L204.69,128Z" }, null, -1), r1 = [
   l1,
   t1
-], o1 = { key: 2 }, i1 = /* @__PURE__ */ a("path", { d: "M221.66,133.66l-72,72A8,8,0,0,1,136,200V136H40a8,8,0,0,1,0-16h96V56a8,8,0,0,1,13.66-5.66l72,72A8,8,0,0,1,221.66,133.66Z" }, null, -1), n1 = [
-  i1
-], u1 = { key: 3 }, s1 = /* @__PURE__ */ a("path", { d: "M220.24,132.24l-72,72a6,6,0,0,1-8.48-8.48L201.51,134H40a6,6,0,0,1,0-12H201.51L139.76,60.24a6,6,0,0,1,8.48-8.48l72,72A6,6,0,0,1,220.24,132.24Z" }, null, -1), h1 = [
-  s1
+], o1 = { key: 2 }, n1 = /* @__PURE__ */ a("path", { d: "M221.66,133.66l-72,72A8,8,0,0,1,136,200V136H40a8,8,0,0,1,0-16h96V56a8,8,0,0,1,13.66-5.66l72,72A8,8,0,0,1,221.66,133.66Z" }, null, -1), i1 = [
+  n1
+], s1 = { key: 3 }, u1 = /* @__PURE__ */ a("path", { d: "M220.24,132.24l-72,72a6,6,0,0,1-8.48-8.48L201.51,134H40a6,6,0,0,1,0-12H201.51L139.76,60.24a6,6,0,0,1,8.48-8.48l72,72A6,6,0,0,1,220.24,132.24Z" }, null, -1), h1 = [
+  u1
 ], v1 = { key: 4 }, d1 = /* @__PURE__ */ a("path", { d: "M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z" }, null, -1), $1 = [
   d1
 ], c1 = { key: 5 }, g1 = /* @__PURE__ */ a("path", { d: "M218.83,130.83l-72,72a4,4,0,0,1-5.66-5.66L206.34,132H40a4,4,0,0,1,0-8H206.34L141.17,58.83a4,4,0,0,1,5.66-5.66l72,72A4,4,0,0,1,218.83,130.83Z" }, null, -1), p1 = [
@@ -146,18 +145,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", X0, e1)) : r.value === "duotone" ? (e(), t("g", a1, r1)) : r.value === "fill" ? (e(), t("g", o1, n1)) : r.value === "light" ? (e(), t("g", u1, h1)) : r.value === "regular" ? (e(), t("g", v1, $1)) : r.value === "thin" ? (e(), t("g", c1, p1)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", X0, e1)) : r.value === "duotone" ? (e(), t("g", a1, r1)) : r.value === "fill" ? (e(), t("g", o1, i1)) : r.value === "light" ? (e(), t("g", s1, h1)) : r.value === "regular" ? (e(), t("g", v1, $1)) : r.value === "thin" ? (e(), t("g", c1, p1)) : y("", !0)
     ], 16, Q0));
   }
 }), H1 = ["width", "height", "fill", "transform"], f1 = { key: 0 }, Z1 = /* @__PURE__ */ a("path", { d: "M236,112a68.07,68.07,0,0,1-68,68H61l27.52,27.51a12,12,0,0,1-17,17l-48-48a12,12,0,0,1,0-17l48-48a12,12,0,1,1,17,17L61,156H168a44,44,0,0,0,0-88H80a12,12,0,0,1,0-24h88A68.07,68.07,0,0,1,236,112Z" }, null, -1), y1 = [
@@ -168,9 +167,9 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
 }, null, -1), M1 = /* @__PURE__ */ a("path", { d: "M168,48H80a8,8,0,0,0,0,16h88a48,48,0,0,1,0,96H88V120a8,8,0,0,0-13.66-5.66l-48,48a8,8,0,0,0,0,11.32l48,48A8,8,0,0,0,88,216V176h80a64,64,0,0,0,0-128ZM72,196.69,43.31,168,72,139.31Z" }, null, -1), k1 = [
   w1,
   M1
-], b1 = { key: 2 }, z1 = /* @__PURE__ */ a("path", { d: "M232,112a64.07,64.07,0,0,1-64,64H88v40a8,8,0,0,1-13.66,5.66l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,88,120v40h80a48,48,0,0,0,0-96H80a8,8,0,0,1,0-16h88A64.07,64.07,0,0,1,232,112Z" }, null, -1), x1 = [
+], b1 = { key: 2 }, z1 = /* @__PURE__ */ a("path", { d: "M232,112a64.07,64.07,0,0,1-64,64H88v40a8,8,0,0,1-13.66,5.66l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,88,120v40h80a48,48,0,0,0,0-96H80a8,8,0,0,1,0-16h88A64.07,64.07,0,0,1,232,112Z" }, null, -1), C1 = [
   z1
-], C1 = { key: 3 }, L1 = /* @__PURE__ */ a("path", { d: "M230,112a62.07,62.07,0,0,1-62,62H46.49l37.75,37.76a6,6,0,1,1-8.48,8.48l-48-48a6,6,0,0,1,0-8.48l48-48a6,6,0,0,1,8.48,8.48L46.49,162H168a50,50,0,0,0,0-100H80a6,6,0,0,1,0-12h88A62.07,62.07,0,0,1,230,112Z" }, null, -1), S1 = [
+], x1 = { key: 3 }, L1 = /* @__PURE__ */ a("path", { d: "M230,112a62.07,62.07,0,0,1-62,62H46.49l37.75,37.76a6,6,0,1,1-8.48,8.48l-48-48a6,6,0,0,1,0-8.48l48-48a6,6,0,0,1,8.48,8.48L46.49,162H168a50,50,0,0,0,0-100H80a6,6,0,0,1,0-12h88A62.07,62.07,0,0,1,230,112Z" }, null, -1), S1 = [
   L1
 ], B1 = { key: 4 }, N1 = /* @__PURE__ */ a("path", { d: "M232,112a64.07,64.07,0,0,1-64,64H51.31l34.35,34.34a8,8,0,0,1-11.32,11.32l-48-48a8,8,0,0,1,0-11.32l48-48a8,8,0,0,1,11.32,11.32L51.31,160H168a48,48,0,0,0,0-96H80a8,8,0,0,1,0-16h88A64.07,64.07,0,0,1,232,112Z" }, null, -1), P1 = [
   N1
@@ -178,7 +177,7 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
   j1
 ], T1 = {
   name: "PhArrowUDownLeft"
-}, E1 = /* @__PURE__ */ M({
+}, F1 = /* @__PURE__ */ M({
   ...T1,
   props: {
     weight: {
@@ -194,22 +193,22 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", f1, y1)) : r.value === "duotone" ? (e(), t("g", A1, k1)) : r.value === "fill" ? (e(), t("g", b1, x1)) : r.value === "light" ? (e(), t("g", C1, S1)) : r.value === "regular" ? (e(), t("g", B1, P1)) : r.value === "thin" ? (e(), t("g", _1, D1)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", f1, y1)) : r.value === "duotone" ? (e(), t("g", A1, k1)) : r.value === "fill" ? (e(), t("g", b1, C1)) : r.value === "light" ? (e(), t("g", x1, S1)) : r.value === "regular" ? (e(), t("g", B1, P1)) : r.value === "thin" ? (e(), t("g", _1, D1)) : y("", !0)
     ], 16, H1));
   }
-}), F1 = ["width", "height", "fill", "transform"], W1 = { key: 0 }, I1 = /* @__PURE__ */ a("path", { d: "M208.49,120.49a12,12,0,0,1-17,0L140,69V216a12,12,0,0,1-24,0V69L64.49,120.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,120.49Z" }, null, -1), q1 = [
-  I1
+}), E1 = ["width", "height", "fill", "transform"], W1 = { key: 0 }, q1 = /* @__PURE__ */ a("path", { d: "M208.49,120.49a12,12,0,0,1-17,0L140,69V216a12,12,0,0,1-24,0V69L64.49,120.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,120.49Z" }, null, -1), I1 = [
+  q1
 ], U1 = { key: 1 }, G1 = /* @__PURE__ */ a("path", {
   d: "M200,112H56l72-72Z",
   opacity: "0.2"
@@ -222,12 +221,12 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
   Y1
 ], a2 = { key: 4 }, l2 = /* @__PURE__ */ a("path", { d: "M205.66,117.66a8,8,0,0,1-11.32,0L136,59.31V216a8,8,0,0,1-16,0V59.31L61.66,117.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0l72,72A8,8,0,0,1,205.66,117.66Z" }, null, -1), t2 = [
   l2
-], r2 = { key: 5 }, o2 = /* @__PURE__ */ a("path", { d: "M202.83,114.83a4,4,0,0,1-5.66,0L132,49.66V216a4,4,0,0,1-8,0V49.66L58.83,114.83a4,4,0,0,1-5.66-5.66l72-72a4,4,0,0,1,5.66,0l72,72A4,4,0,0,1,202.83,114.83Z" }, null, -1), i2 = [
+], r2 = { key: 5 }, o2 = /* @__PURE__ */ a("path", { d: "M202.83,114.83a4,4,0,0,1-5.66,0L132,49.66V216a4,4,0,0,1-8,0V49.66L58.83,114.83a4,4,0,0,1-5.66-5.66l72-72a4,4,0,0,1,5.66,0l72,72A4,4,0,0,1,202.83,114.83Z" }, null, -1), n2 = [
   o2
-], n2 = {
+], i2 = {
   name: "PhArrowUp"
-}, u2 = /* @__PURE__ */ M({
-  ...n2,
+}, s2 = /* @__PURE__ */ M({
+  ...i2,
   props: {
     weight: {
       type: String
@@ -242,21 +241,21 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", W1, q1)) : r.value === "duotone" ? (e(), t("g", U1, R1)) : r.value === "fill" ? (e(), t("g", J1, Q1)) : r.value === "light" ? (e(), t("g", X1, e2)) : r.value === "regular" ? (e(), t("g", a2, t2)) : r.value === "thin" ? (e(), t("g", r2, i2)) : y("", !0)
-    ], 16, F1));
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", W1, I1)) : r.value === "duotone" ? (e(), t("g", U1, R1)) : r.value === "fill" ? (e(), t("g", J1, Q1)) : r.value === "light" ? (e(), t("g", X1, e2)) : r.value === "regular" ? (e(), t("g", a2, t2)) : r.value === "thin" ? (e(), t("g", r2, n2)) : y("", !0)
+    ], 16, E1));
   }
-}), s2 = ["width", "height", "fill", "transform"], h2 = { key: 0 }, v2 = /* @__PURE__ */ a("path", { d: "M100,28H64A20,20,0,0,0,44,48V208a20,20,0,0,0,20,20h36a20,20,0,0,0,20-20V48A20,20,0,0,0,100,28ZM96,204H68V52H96ZM192,28H156a20,20,0,0,0-20,20V208a20,20,0,0,0,20,20h36a20,20,0,0,0,20-20V48A20,20,0,0,0,192,28Zm-4,176H160V52h28Z" }, null, -1), d2 = [
+}), u2 = ["width", "height", "fill", "transform"], h2 = { key: 0 }, v2 = /* @__PURE__ */ a("path", { d: "M100,28H64A20,20,0,0,0,44,48V208a20,20,0,0,0,20,20h36a20,20,0,0,0,20-20V48A20,20,0,0,0,100,28ZM96,204H68V52H96ZM192,28H156a20,20,0,0,0-20,20V208a20,20,0,0,0,20,20h36a20,20,0,0,0,20-20V48A20,20,0,0,0,192,28Zm-4,176H160V52h28Z" }, null, -1), d2 = [
   v2
 ], $2 = { key: 1 }, c2 = /* @__PURE__ */ a("path", {
   d: "M112,48V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8h40A8,8,0,0,1,112,48Zm80-8H152a8,8,0,0,0-8,8V208a8,8,0,0,0,8,8h40a8,8,0,0,0,8-8V48A8,8,0,0,0,192,40Z",
@@ -272,10 +271,10 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
   w2
 ], k2 = { key: 5 }, b2 = /* @__PURE__ */ a("path", { d: "M104,36H64A12,12,0,0,0,52,48V208a12,12,0,0,0,12,12h40a12,12,0,0,0,12-12V48A12,12,0,0,0,104,36Zm4,172a4,4,0,0,1-4,4H64a4,4,0,0,1-4-4V48a4,4,0,0,1,4-4h40a4,4,0,0,1,4,4ZM192,36H152a12,12,0,0,0-12,12V208a12,12,0,0,0,12,12h40a12,12,0,0,0,12-12V48A12,12,0,0,0,192,36Zm4,172a4,4,0,0,1-4,4H152a4,4,0,0,1-4-4V48a4,4,0,0,1,4-4h40a4,4,0,0,1,4,4Z" }, null, -1), z2 = [
   b2
-], x2 = {
+], C2 = {
   name: "PhColumns"
-}, C2 = /* @__PURE__ */ M({
-  ...x2,
+}, x2 = /* @__PURE__ */ M({
+  ...C2,
   props: {
     weight: {
       type: String
@@ -290,19 +289,19 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
+    }, i.$attrs), [
+      w(i.$slots, "default"),
       r.value === "bold" ? (e(), t("g", h2, d2)) : r.value === "duotone" ? (e(), t("g", $2, p2)) : r.value === "fill" ? (e(), t("g", m2, H2)) : r.value === "light" ? (e(), t("g", f2, y2)) : r.value === "regular" ? (e(), t("g", A2, M2)) : r.value === "thin" ? (e(), t("g", k2, z2)) : y("", !0)
-    ], 16, s2));
+    ], 16, u2));
   }
 }), L2 = ["width", "height", "fill", "transform"], S2 = { key: 0 }, B2 = /* @__PURE__ */ a("path", { d: "M251,123.13c-.37-.81-9.13-20.26-28.48-39.61C196.63,57.67,164,44,128,44S59.37,57.67,33.51,83.52C14.16,102.87,5.4,122.32,5,123.13a12.08,12.08,0,0,0,0,9.75c.37.82,9.13,20.26,28.49,39.61C59.37,198.34,92,212,128,212s68.63-13.66,94.48-39.51c19.36-19.35,28.12-38.79,28.49-39.61A12.08,12.08,0,0,0,251,123.13Zm-46.06,33C183.47,177.27,157.59,188,128,188s-55.47-10.73-76.91-31.88A130.36,130.36,0,0,1,29.52,128,130.45,130.45,0,0,1,51.09,99.89C72.54,78.73,98.41,68,128,68s55.46,10.73,76.91,31.89A130.36,130.36,0,0,1,226.48,128,130.45,130.45,0,0,1,204.91,156.12ZM128,84a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,84Zm0,64a20,20,0,1,1,20-20A20,20,0,0,1,128,148Z" }, null, -1), N2 = [
   B2
@@ -312,10 +311,10 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
 }, null, -1), j2 = /* @__PURE__ */ a("path", { d: "M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.47,133.47,0,0,1,25,128,133.33,133.33,0,0,1,48.07,97.25C70.33,75.19,97.22,64,128,64s57.67,11.19,79.93,33.25A133.46,133.46,0,0,1,231.05,128C223.84,141.46,192.43,192,128,192Zm0-112a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Z" }, null, -1), D2 = [
   _2,
   j2
-], T2 = { key: 2 }, E2 = /* @__PURE__ */ a("path", { d: "M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,168a40,40,0,1,1,40-40A40,40,0,0,1,128,168Z" }, null, -1), F2 = [
-  E2
-], W2 = { key: 3 }, I2 = /* @__PURE__ */ a("path", { d: "M245.48,125.57c-.34-.78-8.66-19.23-27.24-37.81C201,70.54,171.38,50,128,50S55,70.54,37.76,87.76c-18.58,18.58-26.9,37-27.24,37.81a6,6,0,0,0,0,4.88c.34.77,8.66,19.22,27.24,37.8C55,185.47,84.62,206,128,206s73-20.53,90.24-37.75c18.58-18.58,26.9-37,27.24-37.8A6,6,0,0,0,245.48,125.57ZM128,194c-31.38,0-58.78-11.42-81.45-33.93A134.77,134.77,0,0,1,22.69,128,134.56,134.56,0,0,1,46.55,95.94C69.22,73.42,96.62,62,128,62s58.78,11.42,81.45,33.94A134.56,134.56,0,0,1,233.31,128C226.94,140.21,195,194,128,194Zm0-112a46,46,0,1,0,46,46A46.06,46.06,0,0,0,128,82Zm0,80a34,34,0,1,1,34-34A34,34,0,0,1,128,162Z" }, null, -1), q2 = [
-  I2
+], T2 = { key: 2 }, F2 = /* @__PURE__ */ a("path", { d: "M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,168a40,40,0,1,1,40-40A40,40,0,0,1,128,168Z" }, null, -1), E2 = [
+  F2
+], W2 = { key: 3 }, q2 = /* @__PURE__ */ a("path", { d: "M245.48,125.57c-.34-.78-8.66-19.23-27.24-37.81C201,70.54,171.38,50,128,50S55,70.54,37.76,87.76c-18.58,18.58-26.9,37-27.24,37.81a6,6,0,0,0,0,4.88c.34.77,8.66,19.22,27.24,37.8C55,185.47,84.62,206,128,206s73-20.53,90.24-37.75c18.58-18.58,26.9-37,27.24-37.8A6,6,0,0,0,245.48,125.57ZM128,194c-31.38,0-58.78-11.42-81.45-33.93A134.77,134.77,0,0,1,22.69,128,134.56,134.56,0,0,1,46.55,95.94C69.22,73.42,96.62,62,128,62s58.78,11.42,81.45,33.94A134.56,134.56,0,0,1,233.31,128C226.94,140.21,195,194,128,194Zm0-112a46,46,0,1,0,46,46A46.06,46.06,0,0,0,128,82Zm0,80a34,34,0,1,1,34-34A34,34,0,0,1,128,162Z" }, null, -1), I2 = [
+  q2
 ], U2 = { key: 4 }, G2 = /* @__PURE__ */ a("path", { d: "M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.47,133.47,0,0,1,25,128,133.33,133.33,0,0,1,48.07,97.25C70.33,75.19,97.22,64,128,64s57.67,11.19,79.93,33.25A133.46,133.46,0,0,1,231.05,128C223.84,141.46,192.43,192,128,192Zm0-112a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Z" }, null, -1), O2 = [
   G2
 ], R2 = { key: 5 }, J2 = /* @__PURE__ */ a("path", { d: "M243.66,126.38c-.34-.76-8.52-18.89-26.83-37.2C199.87,72.22,170.7,52,128,52S56.13,72.22,39.17,89.18c-18.31,18.31-26.49,36.44-26.83,37.2a4.08,4.08,0,0,0,0,3.25c.34.77,8.52,18.89,26.83,37.2,17,17,46.14,37.17,88.83,37.17s71.87-20.21,88.83-37.17c18.31-18.31,26.49-36.43,26.83-37.2A4.08,4.08,0,0,0,243.66,126.38Zm-32.7,35c-23.07,23-51,34.62-83,34.62s-59.89-11.65-83-34.62A135.71,135.71,0,0,1,20.44,128,135.69,135.69,0,0,1,45,94.62C68.11,71.65,96,60,128,60s59.89,11.65,83,34.62A135.79,135.79,0,0,1,235.56,128,135.71,135.71,0,0,1,211,161.38ZM128,84a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,84Zm0,80a36,36,0,1,1,36-36A36,36,0,0,1,128,164Z" }, null, -1), K2 = [
@@ -338,18 +337,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", S2, N2)) : r.value === "duotone" ? (e(), t("g", P2, D2)) : r.value === "fill" ? (e(), t("g", T2, F2)) : r.value === "light" ? (e(), t("g", W2, q2)) : r.value === "regular" ? (e(), t("g", U2, O2)) : r.value === "thin" ? (e(), t("g", R2, K2)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", S2, N2)) : r.value === "duotone" ? (e(), t("g", P2, D2)) : r.value === "fill" ? (e(), t("g", T2, E2)) : r.value === "light" ? (e(), t("g", W2, I2)) : r.value === "regular" ? (e(), t("g", U2, O2)) : r.value === "thin" ? (e(), t("g", R2, K2)) : y("", !0)
     ], 16, L2));
   }
 }), Y2 = ["width", "height", "fill", "transform"], e8 = { key: 0 }, a8 = /* @__PURE__ */ a("path", { d: "M222.14,69.17,186.83,33.86A19.86,19.86,0,0,0,172.69,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V83.31A19.86,19.86,0,0,0,222.14,69.17ZM164,204H92V160h72Zm40,0H188V156a20,20,0,0,0-20-20H88a20,20,0,0,0-20,20v48H52V52H171l33,33ZM164,84a12,12,0,0,1-12,12H96a12,12,0,0,1,0-24h56A12,12,0,0,1,164,84Z" }, null, -1), l8 = [
@@ -357,11 +356,11 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
 ], t8 = { key: 1 }, r8 = /* @__PURE__ */ a("path", {
   d: "M216,83.31V208a8,8,0,0,1-8,8H176V152a8,8,0,0,0-8-8H88a8,8,0,0,0-8,8v64H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H172.69a8,8,0,0,1,5.65,2.34l35.32,35.32A8,8,0,0,1,216,83.31Z",
   opacity: "0.2"
-}, null, -1), o8 = /* @__PURE__ */ a("path", { d: "M219.31,72,184,36.69A15.86,15.86,0,0,0,172.69,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V83.31A15.86,15.86,0,0,0,219.31,72ZM168,208H88V152h80Zm40,0H184V152a16,16,0,0,0-16-16H88a16,16,0,0,0-16,16v56H48V48H172.69L208,83.31ZM160,72a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h56A8,8,0,0,1,160,72Z" }, null, -1), i8 = [
+}, null, -1), o8 = /* @__PURE__ */ a("path", { d: "M219.31,72,184,36.69A15.86,15.86,0,0,0,172.69,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V83.31A15.86,15.86,0,0,0,219.31,72ZM168,208H88V152h80Zm40,0H184V152a16,16,0,0,0-16-16H88a16,16,0,0,0-16,16v56H48V48H172.69L208,83.31ZM160,72a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h56A8,8,0,0,1,160,72Z" }, null, -1), n8 = [
   r8,
   o8
-], n8 = { key: 2 }, u8 = /* @__PURE__ */ a("path", { d: "M219.31,72,184,36.69A15.86,15.86,0,0,0,172.69,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V83.31A15.86,15.86,0,0,0,219.31,72ZM208,208H184V152a16,16,0,0,0-16-16H88a16,16,0,0,0-16,16v56H48V48H172.69L208,83.31ZM160,72a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h56A8,8,0,0,1,160,72Z" }, null, -1), s8 = [
-  u8
+], i8 = { key: 2 }, s8 = /* @__PURE__ */ a("path", { d: "M219.31,72,184,36.69A15.86,15.86,0,0,0,172.69,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V83.31A15.86,15.86,0,0,0,219.31,72ZM208,208H184V152a16,16,0,0,0-16-16H88a16,16,0,0,0-16,16v56H48V48H172.69L208,83.31ZM160,72a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h56A8,8,0,0,1,160,72Z" }, null, -1), u8 = [
+  s8
 ], h8 = { key: 3 }, v8 = /* @__PURE__ */ a("path", { d: "M217.9,73.42,182.58,38.1a13.9,13.9,0,0,0-9.89-4.1H48A14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V83.31A13.9,13.9,0,0,0,217.9,73.42ZM170,210H86V152a2,2,0,0,1,2-2h80a2,2,0,0,1,2,2Zm40-2a2,2,0,0,1-2,2H182V152a14,14,0,0,0-14-14H88a14,14,0,0,0-14,14v58H48a2,2,0,0,1-2-2V48a2,2,0,0,1,2-2H172.69a2,2,0,0,1,1.41.58L209.42,81.9a2,2,0,0,1,.58,1.41ZM158,72a6,6,0,0,1-6,6H96a6,6,0,0,1,0-12h56A6,6,0,0,1,158,72Z" }, null, -1), d8 = [
   v8
 ], $8 = { key: 4 }, c8 = /* @__PURE__ */ a("path", { d: "M219.31,72,184,36.69A15.86,15.86,0,0,0,172.69,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V83.31A15.86,15.86,0,0,0,219.31,72ZM168,208H88V152h80Zm40,0H184V152a16,16,0,0,0-16-16H88a16,16,0,0,0-16,16v56H48V48H172.69L208,83.31ZM160,72a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h56A8,8,0,0,1,160,72Z" }, null, -1), g8 = [
@@ -386,18 +385,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", e8, l8)) : r.value === "duotone" ? (e(), t("g", t8, i8)) : r.value === "fill" ? (e(), t("g", n8, s8)) : r.value === "light" ? (e(), t("g", h8, d8)) : r.value === "regular" ? (e(), t("g", $8, g8)) : r.value === "thin" ? (e(), t("g", p8, V8)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", e8, l8)) : r.value === "duotone" ? (e(), t("g", t8, n8)) : r.value === "fill" ? (e(), t("g", i8, u8)) : r.value === "light" ? (e(), t("g", h8, d8)) : r.value === "regular" ? (e(), t("g", $8, g8)) : r.value === "thin" ? (e(), t("g", p8, V8)) : y("", !0)
     ], 16, Y2));
   }
 }), f8 = ["width", "height", "fill", "transform"], Z8 = { key: 0 }, y8 = /* @__PURE__ */ a("path", { d: "M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,24v63.72L186.14,97.86a20,20,0,0,0-28.28,0L52,203.72V52ZM85.66,204,172,117.66l32,32V204ZM76,96a20,20,0,1,1,20,20A20,20,0,0,1,76,96Z" }, null, -1), A8 = [
@@ -408,18 +407,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
 }, null, -1), k8 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM48,48H208v77.38l-24.69-24.7a16,16,0,0,0-22.62,0L53.37,208H48ZM208,208H76l96-96,36,36v60ZM96,120A24,24,0,1,0,72,96,24,24,0,0,0,96,120Zm0-32a8,8,0,1,1-8,8A8,8,0,0,1,96,88Z" }, null, -1), b8 = [
   M8,
   k8
-], z8 = { key: 2 }, x8 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM48,48H208v77.38l-24.69-24.7a16,16,0,0,0-22.62,0L53.37,208H48ZM80,96a16,16,0,1,1,16,16A16,16,0,0,1,80,96Z" }, null, -1), C8 = [
-  x8
+], z8 = { key: 2 }, C8 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM48,48H208v77.38l-24.69-24.7a16,16,0,0,0-22.62,0L53.37,208H48ZM80,96a16,16,0,1,1,16,16A16,16,0,0,1,80,96Z" }, null, -1), x8 = [
+  C8
 ], L8 = { key: 3 }, S8 = /* @__PURE__ */ a("path", { d: "M208,34H48A14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V48A14,14,0,0,0,208,34ZM46,208V48a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2v82.2l-28.1-28.1a14,14,0,0,0-19.8,0L54.2,210H48A2,2,0,0,1,46,208Zm162,2H71.17l99.41-99.41a2,2,0,0,1,2.83,0L210,147.17V208A2,2,0,0,1,208,210ZM96,118A22,22,0,1,0,74,96,22,22,0,0,0,96,118Zm0-32A10,10,0,1,1,86,96,10,10,0,0,1,96,86Z" }, null, -1), B8 = [
   S8
 ], N8 = { key: 4 }, P8 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM48,48H208v77.38l-24.69-24.7a16,16,0,0,0-22.62,0L53.37,208H48ZM208,208H76l96-96,36,36v60ZM96,120A24,24,0,1,0,72,96,24,24,0,0,0,96,120Zm0-32a8,8,0,1,1-8,8A8,8,0,0,1,96,88Z" }, null, -1), _8 = [
   P8
 ], j8 = { key: 5 }, D8 = /* @__PURE__ */ a("path", { d: "M208,36H48A12,12,0,0,0,36,48V208a12,12,0,0,0,12,12H208a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM44,208V48a4,4,0,0,1,4-4H208a4,4,0,0,1,4,4v87l-31.51-31.52a12,12,0,0,0-17,0L55,212H48A4,4,0,0,1,44,208Zm164,4H66.34L169.17,109.17a4,4,0,0,1,5.66,0L212,146.34V208A4,4,0,0,1,208,212ZM96,116A20,20,0,1,0,76,96,20,20,0,0,0,96,116Zm0-32A12,12,0,1,1,84,96,12,12,0,0,1,96,84Z" }, null, -1), T8 = [
   D8
-], E8 = {
+], F8 = {
   name: "PhImageSquare"
-}, F8 = /* @__PURE__ */ M({
-  ...E8,
+}, E8 = /* @__PURE__ */ M({
+  ...F8,
   props: {
     weight: {
       type: String
@@ -434,22 +433,22 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", Z8, A8)) : r.value === "duotone" ? (e(), t("g", w8, b8)) : r.value === "fill" ? (e(), t("g", z8, C8)) : r.value === "light" ? (e(), t("g", L8, B8)) : r.value === "regular" ? (e(), t("g", N8, _8)) : r.value === "thin" ? (e(), t("g", j8, T8)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", Z8, A8)) : r.value === "duotone" ? (e(), t("g", w8, b8)) : r.value === "fill" ? (e(), t("g", z8, x8)) : r.value === "light" ? (e(), t("g", L8, B8)) : r.value === "regular" ? (e(), t("g", N8, _8)) : r.value === "thin" ? (e(), t("g", j8, T8)) : y("", !0)
     ], 16, f8));
   }
-}), W8 = ["width", "height", "fill", "transform"], I8 = { key: 0 }, q8 = /* @__PURE__ */ a("path", { d: "M228,128a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,128Z" }, null, -1), U8 = [
-  q8
+}), W8 = ["width", "height", "fill", "transform"], q8 = { key: 0 }, I8 = /* @__PURE__ */ a("path", { d: "M228,128a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,128Z" }, null, -1), U8 = [
+  I8
 ], G8 = { key: 1 }, O8 = /* @__PURE__ */ a("path", {
   d: "M216,56V200a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56A16,16,0,0,1,56,40H200A16,16,0,0,1,216,56Z",
   opacity: "0.2"
@@ -462,12 +461,12 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
   e6
 ], l6 = { key: 4 }, t6 = /* @__PURE__ */ a("path", { d: "M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128Z" }, null, -1), r6 = [
   t6
-], o6 = { key: 5 }, i6 = /* @__PURE__ */ a("path", { d: "M220,128a4,4,0,0,1-4,4H40a4,4,0,0,1,0-8H216A4,4,0,0,1,220,128Z" }, null, -1), n6 = [
-  i6
-], u6 = {
+], o6 = { key: 5 }, n6 = /* @__PURE__ */ a("path", { d: "M220,128a4,4,0,0,1-4,4H40a4,4,0,0,1,0-8H216A4,4,0,0,1,220,128Z" }, null, -1), i6 = [
+  n6
+], s6 = {
   name: "PhMinus"
-}, s6 = /* @__PURE__ */ M({
-  ...u6,
+}, u6 = /* @__PURE__ */ M({
+  ...s6,
   props: {
     weight: {
       type: String
@@ -482,18 +481,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", I8, U8)) : r.value === "duotone" ? (e(), t("g", G8, J8)) : r.value === "fill" ? (e(), t("g", K8, X8)) : r.value === "light" ? (e(), t("g", Y8, a6)) : r.value === "regular" ? (e(), t("g", l6, r6)) : r.value === "thin" ? (e(), t("g", o6, n6)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", q8, U8)) : r.value === "duotone" ? (e(), t("g", G8, J8)) : r.value === "fill" ? (e(), t("g", K8, X8)) : r.value === "light" ? (e(), t("g", Y8, a6)) : r.value === "regular" ? (e(), t("g", l6, r6)) : r.value === "thin" ? (e(), t("g", o6, i6)) : y("", !0)
     ], 16, W8));
   }
 }), h6 = ["width", "height", "fill", "transform"], v6 = { key: 0 }, d6 = /* @__PURE__ */ a("path", { d: "M232.49,55.51l-32-32a12,12,0,0,0-17,0l-96,96A12,12,0,0,0,84,128v32a12,12,0,0,0,12,12h32a12,12,0,0,0,8.49-3.51l96-96A12,12,0,0,0,232.49,55.51ZM192,49l15,15L196,75,181,60Zm-69,99H108V133l56-56,15,15Zm105-7.43V208a20,20,0,0,1-20,20H48a20,20,0,0,1-20-20V48A20,20,0,0,1,48,28h67.43a12,12,0,0,1,0,24H52V204H204V140.57a12,12,0,0,1,24,0Z" }, null, -1), $6 = [
@@ -510,12 +509,12 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
   y6
 ], w6 = { key: 4 }, M6 = /* @__PURE__ */ a("path", { d: "M229.66,58.34l-32-32a8,8,0,0,0-11.32,0l-96,96A8,8,0,0,0,88,128v32a8,8,0,0,0,8,8h32a8,8,0,0,0,5.66-2.34l96-96A8,8,0,0,0,229.66,58.34ZM124.69,152H104V131.31l64-64L188.69,88ZM200,76.69,179.31,56,192,43.31,212.69,64ZM224,128v80a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32h80a8,8,0,0,1,0,16H48V208H208V128a8,8,0,0,1,16,0Z" }, null, -1), k6 = [
   M6
-], b6 = { key: 5 }, z6 = /* @__PURE__ */ a("path", { d: "M226.83,61.17l-32-32a4,4,0,0,0-5.66,0l-96,96A4,4,0,0,0,92,128v32a4,4,0,0,0,4,4h32a4,4,0,0,0,2.83-1.17l96-96A4,4,0,0,0,226.83,61.17ZM126.34,156H100V129.66l68-68L194.34,88ZM200,82.34,173.66,56,192,37.66,218.34,64ZM220,128v80a12,12,0,0,1-12,12H48a12,12,0,0,1-12-12V48A12,12,0,0,1,48,36h80a4,4,0,0,1,0,8H48a4,4,0,0,0-4,4V208a4,4,0,0,0,4,4H208a4,4,0,0,0,4-4V128a4,4,0,0,1,8,0Z" }, null, -1), x6 = [
+], b6 = { key: 5 }, z6 = /* @__PURE__ */ a("path", { d: "M226.83,61.17l-32-32a4,4,0,0,0-5.66,0l-96,96A4,4,0,0,0,92,128v32a4,4,0,0,0,4,4h32a4,4,0,0,0,2.83-1.17l96-96A4,4,0,0,0,226.83,61.17ZM126.34,156H100V129.66l68-68L194.34,88ZM200,82.34,173.66,56,192,37.66,218.34,64ZM220,128v80a12,12,0,0,1-12,12H48a12,12,0,0,1-12-12V48A12,12,0,0,1,48,36h80a4,4,0,0,1,0,8H48a4,4,0,0,0-4,4V208a4,4,0,0,0,4,4H208a4,4,0,0,0,4-4V128a4,4,0,0,1,8,0Z" }, null, -1), C6 = [
   z6
-], C6 = {
+], x6 = {
   name: "PhNotePencil"
 }, G = /* @__PURE__ */ M({
-  ...C6,
+  ...x6,
   props: {
     weight: {
       type: String
@@ -530,18 +529,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", v6, $6)) : r.value === "duotone" ? (e(), t("g", c6, m6)) : r.value === "fill" ? (e(), t("g", V6, f6)) : r.value === "light" ? (e(), t("g", Z6, A6)) : r.value === "regular" ? (e(), t("g", w6, k6)) : r.value === "thin" ? (e(), t("g", b6, x6)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", v6, $6)) : r.value === "duotone" ? (e(), t("g", c6, m6)) : r.value === "fill" ? (e(), t("g", V6, f6)) : r.value === "light" ? (e(), t("g", Z6, A6)) : r.value === "regular" ? (e(), t("g", w6, k6)) : r.value === "thin" ? (e(), t("g", b6, C6)) : y("", !0)
     ], 16, h6));
   }
 }), L6 = ["width", "height", "fill", "transform"], S6 = { key: 0 }, B6 = /* @__PURE__ */ a("path", { d: "M228,128a12,12,0,0,1-12,12H140v76a12,12,0,0,1-24,0V140H40a12,12,0,0,1,0-24h76V40a12,12,0,0,1,24,0v76h76A12,12,0,0,1,228,128Z" }, null, -1), N6 = [
@@ -552,10 +551,10 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
 }, null, -1), j6 = /* @__PURE__ */ a("path", { d: "M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z" }, null, -1), D6 = [
   _6,
   j6
-], T6 = { key: 2 }, E6 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM184,136H136v48a8,8,0,0,1-16,0V136H72a8,8,0,0,1,0-16h48V72a8,8,0,0,1,16,0v48h48a8,8,0,0,1,0,16Z" }, null, -1), F6 = [
-  E6
-], W6 = { key: 3 }, I6 = /* @__PURE__ */ a("path", { d: "M222,128a6,6,0,0,1-6,6H134v82a6,6,0,0,1-12,0V134H40a6,6,0,0,1,0-12h82V40a6,6,0,0,1,12,0v82h82A6,6,0,0,1,222,128Z" }, null, -1), q6 = [
-  I6
+], T6 = { key: 2 }, F6 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM184,136H136v48a8,8,0,0,1-16,0V136H72a8,8,0,0,1,0-16h48V72a8,8,0,0,1,16,0v48h48a8,8,0,0,1,0,16Z" }, null, -1), E6 = [
+  F6
+], W6 = { key: 3 }, q6 = /* @__PURE__ */ a("path", { d: "M222,128a6,6,0,0,1-6,6H134v82a6,6,0,0,1-12,0V134H40a6,6,0,0,1,0-12h82V40a6,6,0,0,1,12,0v82h82A6,6,0,0,1,222,128Z" }, null, -1), I6 = [
+  q6
 ], U6 = { key: 4 }, G6 = /* @__PURE__ */ a("path", { d: "M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z" }, null, -1), O6 = [
   G6
 ], R6 = { key: 5 }, J6 = /* @__PURE__ */ a("path", { d: "M220,128a4,4,0,0,1-4,4H132v84a4,4,0,0,1-8,0V132H40a4,4,0,0,1,0-8h84V40a4,4,0,0,1,8,0v84h84A4,4,0,0,1,220,128Z" }, null, -1), K6 = [
@@ -578,18 +577,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", S6, N6)) : r.value === "duotone" ? (e(), t("g", P6, D6)) : r.value === "fill" ? (e(), t("g", T6, F6)) : r.value === "light" ? (e(), t("g", W6, q6)) : r.value === "regular" ? (e(), t("g", U6, O6)) : r.value === "thin" ? (e(), t("g", R6, K6)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", S6, N6)) : r.value === "duotone" ? (e(), t("g", P6, D6)) : r.value === "fill" ? (e(), t("g", T6, E6)) : r.value === "light" ? (e(), t("g", W6, I6)) : r.value === "regular" ? (e(), t("g", U6, O6)) : r.value === "thin" ? (e(), t("g", R6, K6)) : y("", !0)
     ], 16, L6));
   }
 }), Y6 = ["width", "height", "fill", "transform"], e4 = { key: 0 }, a4 = /* @__PURE__ */ a("path", { d: "M236,112v96a12,12,0,0,1-24,0V134.42L206.66,138a12,12,0,0,1-13.32-20l24-16A12,12,0,0,1,236,112ZM144,44a12,12,0,0,0-12,12v48H52V56a12,12,0,0,0-24,0V176a12,12,0,0,0,24,0V128h80v48a12,12,0,0,0,24,0V56A12,12,0,0,0,144,44Z" }, null, -1), l4 = [
@@ -597,11 +596,11 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
 ], t4 = { key: 1 }, r4 = /* @__PURE__ */ a("path", {
   d: "M224,72V208H56a16,16,0,0,1-16-16V56H208A16,16,0,0,1,224,72Z",
   opacity: "0.2"
-}, null, -1), o4 = /* @__PURE__ */ a("path", { d: "M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm75.77,49a8,8,0,0,0-8.21.39l-24,16a8,8,0,1,0,8.88,13.32L216,127V208a8,8,0,0,0,16,0V112A8,8,0,0,0,227.77,105Z" }, null, -1), i4 = [
+}, null, -1), o4 = /* @__PURE__ */ a("path", { d: "M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm75.77,49a8,8,0,0,0-8.21.39l-24,16a8,8,0,1,0,8.88,13.32L216,127V208a8,8,0,0,0,16,0V112A8,8,0,0,0,227.77,105Z" }, null, -1), n4 = [
   r4,
   o4
-], n4 = { key: 2 }, u4 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM144,160a8,8,0,0,1-16,0V128H72v32a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0v32h56V80a8,8,0,0,1,16,0Zm56,16a8,8,0,0,1-16,0V111l-11.56,7.71a8,8,0,1,1-8.88-13.32l24-16A8,8,0,0,1,200,96Z" }, null, -1), s4 = [
-  u4
+], i4 = { key: 2 }, s4 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM144,160a8,8,0,0,1-16,0V128H72v32a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0v32h56V80a8,8,0,0,1,16,0Zm56,16a8,8,0,0,1-16,0V111l-11.56,7.71a8,8,0,1,1-8.88-13.32l24-16A8,8,0,0,1,200,96Z" }, null, -1), u4 = [
+  s4
 ], h4 = { key: 3 }, v4 = /* @__PURE__ */ a("path", { d: "M230,112v96a6,6,0,0,1-12,0V123.21L203.33,133a6,6,0,0,1-6.66-10l24-16a6,6,0,0,1,9.33,5ZM144,50a6,6,0,0,0-6,6v54H46V56a6,6,0,0,0-12,0V176a6,6,0,0,0,12,0V122h92v54a6,6,0,0,0,12,0V56A6,6,0,0,0,144,50Z" }, null, -1), d4 = [
   v4
 ], $4 = { key: 4 }, c4 = /* @__PURE__ */ a("path", { d: "M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm75.77,49a8,8,0,0,0-8.21.39l-24,16a8,8,0,1,0,8.88,13.32L216,127V208a8,8,0,0,0,16,0V112A8,8,0,0,0,227.77,105Z" }, null, -1), g4 = [
@@ -626,18 +625,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", e4, l4)) : r.value === "duotone" ? (e(), t("g", t4, i4)) : r.value === "fill" ? (e(), t("g", n4, s4)) : r.value === "light" ? (e(), t("g", h4, d4)) : r.value === "regular" ? (e(), t("g", $4, g4)) : r.value === "thin" ? (e(), t("g", p4, V4)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", e4, l4)) : r.value === "duotone" ? (e(), t("g", t4, n4)) : r.value === "fill" ? (e(), t("g", i4, u4)) : r.value === "light" ? (e(), t("g", h4, d4)) : r.value === "regular" ? (e(), t("g", $4, g4)) : r.value === "thin" ? (e(), t("g", p4, V4)) : y("", !0)
     ], 16, Y6));
   }
 }), Z4 = ["width", "height", "fill", "transform"], y4 = { key: 0 }, A4 = /* @__PURE__ */ a("path", { d: "M212,56V88a12,12,0,0,1-24,0V68H140V188h20a12,12,0,0,1,0,24H96a12,12,0,0,1,0-24h20V68H68V88a12,12,0,0,1-24,0V56A12,12,0,0,1,56,44H200A12,12,0,0,1,212,56Z" }, null, -1), w4 = [
@@ -648,18 +647,18 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
 }, null, -1), b4 = /* @__PURE__ */ a("path", { d: "M208,56V88a8,8,0,0,1-16,0V64H136V192h24a8,8,0,0,1,0,16H96a8,8,0,0,1,0-16h24V64H64V88a8,8,0,0,1-16,0V56a8,8,0,0,1,8-8H200A8,8,0,0,1,208,56Z" }, null, -1), z4 = [
   k4,
   b4
-], x4 = { key: 2 }, C4 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM184,96a8,8,0,0,1-16,0V88H136v88h12a8,8,0,0,1,0,16H108a8,8,0,0,1,0-16h12V88H88v8a8,8,0,0,1-16,0V80a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z" }, null, -1), L4 = [
-  C4
+], C4 = { key: 2 }, x4 = /* @__PURE__ */ a("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM184,96a8,8,0,0,1-16,0V88H136v88h12a8,8,0,0,1,0,16H108a8,8,0,0,1,0-16h12V88H88v8a8,8,0,0,1-16,0V80a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z" }, null, -1), L4 = [
+  x4
 ], S4 = { key: 3 }, B4 = /* @__PURE__ */ a("path", { d: "M206,56V88a6,6,0,0,1-12,0V62H134V194h26a6,6,0,0,1,0,12H96a6,6,0,0,1,0-12h26V62H62V88a6,6,0,0,1-12,0V56a6,6,0,0,1,6-6H200A6,6,0,0,1,206,56Z" }, null, -1), N4 = [
   B4
 ], P4 = { key: 4 }, _4 = /* @__PURE__ */ a("path", { d: "M208,56V88a8,8,0,0,1-16,0V64H136V192h24a8,8,0,0,1,0,16H96a8,8,0,0,1,0-16h24V64H64V88a8,8,0,0,1-16,0V56a8,8,0,0,1,8-8H200A8,8,0,0,1,208,56Z" }, null, -1), j4 = [
   _4
-], D4 = { key: 5 }, T4 = /* @__PURE__ */ a("path", { d: "M204,56V88a4,4,0,0,1-8,0V60H132V196h28a4,4,0,0,1,0,8H96a4,4,0,0,1,0-8h28V60H60V88a4,4,0,0,1-8,0V56a4,4,0,0,1,4-4H200A4,4,0,0,1,204,56Z" }, null, -1), E4 = [
+], D4 = { key: 5 }, T4 = /* @__PURE__ */ a("path", { d: "M204,56V88a4,4,0,0,1-8,0V60H132V196h28a4,4,0,0,1,0,8H96a4,4,0,0,1,0-8h28V60H60V88a4,4,0,0,1-8,0V56a4,4,0,0,1,4-4H200A4,4,0,0,1,204,56Z" }, null, -1), F4 = [
   T4
-], F4 = {
+], E4 = {
   name: "PhTextT"
 }, W4 = /* @__PURE__ */ M({
-  ...F4,
+  ...E4,
   props: {
     weight: {
       type: String
@@ -674,21 +673,21 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", y4, w4)) : r.value === "duotone" ? (e(), t("g", M4, z4)) : r.value === "fill" ? (e(), t("g", x4, L4)) : r.value === "light" ? (e(), t("g", S4, N4)) : r.value === "regular" ? (e(), t("g", P4, j4)) : r.value === "thin" ? (e(), t("g", D4, E4)) : y("", !0)
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", y4, w4)) : r.value === "duotone" ? (e(), t("g", M4, z4)) : r.value === "fill" ? (e(), t("g", C4, L4)) : r.value === "light" ? (e(), t("g", S4, N4)) : r.value === "regular" ? (e(), t("g", P4, j4)) : r.value === "thin" ? (e(), t("g", D4, F4)) : y("", !0)
     ], 16, Z4));
   }
-}), I4 = ["width", "height", "fill", "transform"], q4 = { key: 0 }, U4 = /* @__PURE__ */ a("path", { d: "M216,48H180V36A28,28,0,0,0,152,8H104A28,28,0,0,0,76,36V48H40a12,12,0,0,0,0,24h4V208a20,20,0,0,0,20,20H192a20,20,0,0,0,20-20V72h4a12,12,0,0,0,0-24ZM100,36a4,4,0,0,1,4-4h48a4,4,0,0,1,4,4V48H100Zm88,168H68V72H188ZM116,104v64a12,12,0,0,1-24,0V104a12,12,0,0,1,24,0Zm48,0v64a12,12,0,0,1-24,0V104a12,12,0,0,1,24,0Z" }, null, -1), G4 = [
+}), q4 = ["width", "height", "fill", "transform"], I4 = { key: 0 }, U4 = /* @__PURE__ */ a("path", { d: "M216,48H180V36A28,28,0,0,0,152,8H104A28,28,0,0,0,76,36V48H40a12,12,0,0,0,0,24h4V208a20,20,0,0,0,20,20H192a20,20,0,0,0,20-20V72h4a12,12,0,0,0,0-24ZM100,36a4,4,0,0,1,4-4h48a4,4,0,0,1,4,4V48H100Zm88,168H68V72H188ZM116,104v64a12,12,0,0,1-24,0V104a12,12,0,0,1,24,0Zm48,0v64a12,12,0,0,1-24,0V104a12,12,0,0,1,24,0Z" }, null, -1), G4 = [
   U4
 ], O4 = { key: 1 }, R4 = /* @__PURE__ */ a("path", {
   d: "M200,56V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V56Z",
@@ -702,12 +701,12 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
   ae
 ], te = { key: 4 }, re = /* @__PURE__ */ a("path", { d: "M216,48H176V40a24,24,0,0,0-24-24H104A24,24,0,0,0,80,40v8H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM96,40a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96Zm96,168H64V64H192ZM112,104v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm48,0v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Z" }, null, -1), oe = [
   re
-], ie = { key: 5 }, ne = /* @__PURE__ */ a("path", { d: "M216,52H172V40a20,20,0,0,0-20-20H104A20,20,0,0,0,84,40V52H40a4,4,0,0,0,0,8H52V208a12,12,0,0,0,12,12H192a12,12,0,0,0,12-12V60h12a4,4,0,0,0,0-8ZM92,40a12,12,0,0,1,12-12h48a12,12,0,0,1,12,12V52H92ZM196,208a4,4,0,0,1-4,4H64a4,4,0,0,1-4-4V60H196ZM108,104v64a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Zm48,0v64a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Z" }, null, -1), ue = [
-  ne
-], se = {
+], ne = { key: 5 }, ie = /* @__PURE__ */ a("path", { d: "M216,52H172V40a20,20,0,0,0-20-20H104A20,20,0,0,0,84,40V52H40a4,4,0,0,0,0,8H52V208a12,12,0,0,0,12,12H192a12,12,0,0,0,12-12V60h12a4,4,0,0,0,0-8ZM92,40a12,12,0,0,1,12-12h48a12,12,0,0,1,12,12V52H92ZM196,208a4,4,0,0,1-4,4H64a4,4,0,0,1-4-4V60H196ZM108,104v64a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Zm48,0v64a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Z" }, null, -1), se = [
+  ie
+], ue = {
   name: "PhTrash"
 }, he = /* @__PURE__ */ M({
-  ...se,
+  ...ue,
   props: {
     weight: {
       type: String
@@ -722,74 +721,74 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
       type: Boolean
     }
   },
-  setup(u) {
-    const l = u, i = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = s(() => l.weight ?? i), h = s(() => l.size ?? c), v = s(() => l.color ?? d), m = s(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
-    return (n, Z) => (e(), t("svg", k({
+  setup(s) {
+    const l = s, n = o("weight", "regular"), c = o("size", "1em"), d = o("color", "currentColor"), $ = o("mirrored", !1), r = u(() => l.weight ?? n), h = u(() => l.size ?? c), v = u(() => l.color ?? d), m = u(() => l.mirrored !== void 0 ? l.mirrored ? "scale(-1, 1)" : void 0 : $ ? "scale(-1, 1)" : void 0);
+    return (i, Z) => (e(), t("svg", k({
       xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 256 256",
       width: h.value,
       height: h.value,
       fill: v.value,
       transform: m.value
-    }, n.$attrs), [
-      w(n.$slots, "default"),
-      r.value === "bold" ? (e(), t("g", q4, G4)) : r.value === "duotone" ? (e(), t("g", O4, K4)) : r.value === "fill" ? (e(), t("g", Q4, Y4)) : r.value === "light" ? (e(), t("g", ee, le)) : r.value === "regular" ? (e(), t("g", te, oe)) : r.value === "thin" ? (e(), t("g", ie, ue)) : y("", !0)
-    ], 16, I4));
+    }, i.$attrs), [
+      w(i.$slots, "default"),
+      r.value === "bold" ? (e(), t("g", I4, G4)) : r.value === "duotone" ? (e(), t("g", O4, K4)) : r.value === "fill" ? (e(), t("g", Q4, Y4)) : r.value === "light" ? (e(), t("g", ee, le)) : r.value === "regular" ? (e(), t("g", te, oe)) : r.value === "thin" ? (e(), t("g", ne, se)) : y("", !0)
+    ], 16, q4));
   }
 }), ve = { class: "w-full p-3" }, de = { class: "flex flex-wrap justify-center space-x-3 -mb-3" }, $e = { class: "-mb-3" }, ce = "https://placehold.co/990x600?text=Imagem+de+Exemplo", O = {
   __name: "Dialog",
   props: { index: Number | Array },
-  setup(u) {
-    const l = u, i = S(!1), c = S(!1), d = o("add"), $ = o("titles"), r = () => c.value = !0, h = () => c.value = !1;
+  setup(s) {
+    const l = s, n = S(!1), c = S(!1), d = o("add"), $ = o("titles"), r = () => c.value = !0, h = () => c.value = !1;
     function v() {
-      i.value = !i.value, h();
+      n.value = !n.value, h();
     }
-    return L("showTitles", r), L("hideTitles", h), L("toggleDialog", v), (m, n) => (e(), t(P, null, [
+    return L("showTitles", r), L("hideTitles", h), L("toggleDialog", v), (m, i) => (e(), t(P, null, [
       b(a("div", ve, [
         b(a("div", de, [
           f(B, { onClick: r }, {
             default: A(() => [
               f(H(f4), { size: 20 }),
-              n[5] || (n[5] = a("span", null, "Títulos", -1))
+              i[5] || (i[5] = a("span", null, "Títulos", -1))
             ]),
             _: 1
           }),
           f(B, {
-            onClick: n[0] || (n[0] = (Z) => {
-              H(d)("p", "Parágrafo", u.index), v();
+            onClick: i[0] || (i[0] = (Z) => {
+              H(d)("p", "Parágrafo", s.index), v();
             })
           }, {
             default: A(() => [
               f(H(W4), { size: 20 }),
-              n[6] || (n[6] = a("span", null, "Parágrafo", -1))
+              i[6] || (i[6] = a("span", null, "Parágrafo", -1))
             ]),
             _: 1
           }),
           l.index === void 0 ? (e(), z(B, {
             key: 0,
-            onClick: n[1] || (n[1] = (Z) => {
+            onClick: i[1] || (i[1] = (Z) => {
               H(d)("col", [[], []]), v();
             })
           }, {
             default: A(() => [
-              f(H(C2), { size: 20 }),
-              n[7] || (n[7] = a("span", null, "Colunas", -1))
+              f(H(x2), { size: 20 }),
+              i[7] || (i[7] = a("span", null, "Colunas", -1))
             ]),
             _: 1
           })) : y("", !0),
           f(B, {
-            onClick: n[2] || (n[2] = (Z) => {
-              H(d)("img", ce, u.index), v();
+            onClick: i[2] || (i[2] = (Z) => {
+              H(d)("img", ce, s.index), v();
             })
           }, {
             default: A(() => [
-              f(H(F8), { size: 20 }),
-              n[8] || (n[8] = a("span", null, "Imagem", -1))
+              f(H(E8), { size: 20 }),
+              i[8] || (i[8] = a("span", null, "Imagem", -1))
             ]),
             _: 1
           })
         ], 512), [
-          [x, !c.value]
+          [C, !c.value]
         ]),
         b(a("div", $e, [
           (e(!0), t(P, null, D(H($).options, (Z, _) => (e(), z(B, {
@@ -805,7 +804,7 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
                 size: H($).type[Z.type]
               }, {
                 default: A(() => [
-                  T(E(Z.content), 1)
+                  T(F(Z.content), 1)
                 ]),
                 _: 2
               }, 1032, ["size"])
@@ -814,29 +813,29 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
           }, 1032, ["onClick"]))), 128)),
           f(B, {
             class: "w-full h-8! mb-3!",
-            onClick: n[3] || (n[3] = (Z) => h())
+            onClick: i[3] || (i[3] = (Z) => h())
           }, {
             default: A(() => [
-              f(H(E1), { size: 20 })
+              f(H(F1), { size: 20 })
             ]),
             _: 1
           })
         ], 512), [
-          [x, c.value]
+          [C, c.value]
         ])
       ], 512), [
-        [x, i.value]
+        [C, n.value]
       ]),
-      f(F, {
+      f(E, {
         class: "w-full flex justify-center py-1 rounded-none! border-0",
-        onClick: n[4] || (n[4] = (Z) => v())
+        onClick: i[4] || (i[4] = (Z) => v())
       }, {
         default: A(() => [
           b(f(H(X6), { size: 18 }, null, 512), [
-            [x, !i.value]
+            [C, !n.value]
           ]),
-          b(f(H(s6), { size: 18 }, null, 512), [
-            [x, i.value]
+          b(f(H(u6), { size: 18 }, null, 512), [
+            [C, n.value]
           ])
         ]),
         _: 1
@@ -844,12 +843,12 @@ const F = /* @__PURE__ */ I(r0, [["render", i0]]), B = {
     ], 64));
   }
 }, ge = {}, pe = { class: "p-2 transition-colors hover:text-sky-600 text-zinc-800" };
-function me(u, l) {
+function me(s, l) {
   return e(), t("button", pe, [
-    w(u.$slots, "default")
+    w(s.$slots, "default")
   ]);
 }
-const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He = { class: "w-full" }, fe = {
+const N = /* @__PURE__ */ W(ge, [["render", me]]), Ve = { class: "w-full" }, He = { class: "w-full" }, fe = {
   key: 0,
   class: "text-md font-medium"
 }, R = {
@@ -861,8 +860,8 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
     totalItems: Number,
     item: Object
   },
-  setup(u) {
-    const l = u, i = S(!1), c = S(null), d = o("moveUp"), $ = o("moveDown"), r = o("remove"), h = o("titles"), v = typeof l.index == "number", m = {
+  setup(s) {
+    const l = s, n = S(!1), c = S(null), d = o("moveUp"), $ = o("moveDown"), r = o("remove"), h = o("titles"), v = typeof l.index == "number", m = {
       "w-full": !0,
       "border-zinc-300": !0,
       "rounded-xs": !0,
@@ -874,7 +873,7 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
       "group-hover/child:shadow-md/20": !v,
       "group-hover/child:p-2": !v,
       "group-hover/child:mb-2": !v
-    }, n = {
+    }, i = {
       "min-h-4": !0,
       hidden: !0,
       "justify-center": !0,
@@ -882,7 +881,7 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
       "space-x-2": !0,
       "group-hover:flex": v,
       "group-hover/child:flex": !v
-    }, Z = s(() => {
+    }, Z = u(() => {
       const p = h.fromType(l.item.type).current, g = p.type !== null;
       return {
         "w-full": !0,
@@ -894,8 +893,8 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
         "font-bold": g,
         [p.class]: g
       };
-    }), _ = (p) => i.value = p;
-    return W(i, (p) => p && K(() => c.value.focus())), L("editMode", _), (p, g) => (e(), t("div", {
+    }), _ = (p) => n.value = p;
+    return I(n, (p) => p && K(() => c.value.focus())), L("editMode", _), (p, g) => (e(), t("div", {
       class: j(`w-full ${v ? "group" : "group/child"}`)
     }, [
       a("div", {
@@ -904,43 +903,43 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
         b(a("div", Ve, [
           w(p.$slots, "default")
         ], 512), [
-          [x, !i.value]
+          [C, !n.value]
         ]),
         b(a("div", He, [
-          u.item.type == "img" ? (e(), t("label", fe, " Url da imagem ")) : y("", !0),
+          s.item.type == "img" ? (e(), t("label", fe, " Url da imagem ")) : y("", !0),
           b(a("textarea", {
-            onKeydown: g[0] || (g[0] = Q((V) => i.value = !1, ["enter"])),
-            onBlur: g[1] || (g[1] = (V) => i.value = !1),
-            "onUpdate:modelValue": g[2] || (g[2] = (V) => u.item.content = V),
+            onKeydown: g[0] || (g[0] = Q((V) => n.value = !1, ["enter"])),
+            onBlur: g[1] || (g[1] = (V) => n.value = !1),
+            "onUpdate:modelValue": g[2] || (g[2] = (V) => s.item.content = V),
             ref_key: "textareaRef",
             ref: c,
             class: j(Z.value)
           }, null, 34), [
-            [X, u.item.content]
+            [X, s.item.content]
           ])
         ], 512), [
-          [x, i.value]
+          [C, n.value]
         ]),
         a("div", {
-          class: j(n)
+          class: j(i)
         }, [
           b(f(N, {
             class: "p-0!",
             onClick: g[3] || (g[3] = (V) => {
-              i.value = !1, H(d)(u.index);
+              n.value = !1, H(d)(s.index);
             })
           }, {
             default: A(() => [
-              f(H(u2), { size: 20 })
+              f(H(s2), { size: 20 })
             ]),
             _: 1
           }, 512), [
-            [x, u.totalItems > 1 && !u.isFirst && !i.value]
+            [C, s.totalItems > 1 && !s.isFirst && !n.value]
           ]),
           b(f(N, {
             class: "p-0!",
             onClick: g[4] || (g[4] = (V) => {
-              i.value = !1, H($)(u.index);
+              n.value = !1, H($)(s.index);
             })
           }, {
             default: A(() => [
@@ -948,19 +947,19 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
             ]),
             _: 1
           }, 512), [
-            [x, u.totalItems > 1 && !u.isLast && !i.value]
+            [C, s.totalItems > 1 && !s.isLast && !n.value]
           ]),
           l.item.type !== "col" ? (e(), z(N, {
             key: 0,
-            onClick: g[5] || (g[5] = (V) => i.value = !i.value),
+            onClick: g[5] || (g[5] = (V) => n.value = !n.value),
             class: "p-0!"
           }, {
             default: A(() => [
-              i.value ? y("", !0) : (e(), z(H(G), {
+              n.value ? y("", !0) : (e(), z(H(G), {
                 key: 0,
                 size: 20
               })),
-              i.value ? (e(), z(H(U), {
+              n.value ? (e(), z(H(U), {
                 key: 1,
                 size: 20
               })) : y("", !0)
@@ -969,7 +968,7 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
           })) : y("", !0),
           f(N, {
             class: "p-0! hover:text-red-500!",
-            onClick: g[6] || (g[6] = (V) => H(r)(u.index))
+            onClick: g[6] || (g[6] = (V) => H(r)(s.index))
           }, {
             default: A(() => [
               f(H(he), { size: 20 })
@@ -985,31 +984,31 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
   props: {
     section: Object
   },
-  setup(u) {
-    const l = o("titles"), i = o("editMode");
+  setup(s) {
+    const l = o("titles"), n = o("editMode");
     return (c, d) => (e(), t(P, null, [
-      H(l).list.has(u.section.type) ? (e(), z(q, {
+      H(l).list.has(s.section.type) ? (e(), z(q, {
         key: 0,
-        onClick: d[0] || (d[0] = ($) => H(i)(!0)),
-        size: H(l).type[u.section.type]
+        onClick: d[0] || (d[0] = ($) => H(n)(!0)),
+        size: H(l).type[s.section.type]
       }, {
         default: A(() => [
-          T(E(u.section.content), 1)
+          T(F(s.section.content), 1)
         ]),
         _: 1
       }, 8, ["size"])) : y("", !0),
-      u.section.type == "p" ? (e(), z(e0, {
+      s.section.type == "p" ? (e(), z(Y, {
         key: 1,
-        onClick: d[1] || (d[1] = ($) => H(i)(!0))
+        onClick: d[1] || (d[1] = ($) => H(n)(!0))
       }, {
         default: A(() => [
-          T(E(u.section.content), 1)
+          T(F(s.section.content), 1)
         ]),
         _: 1
       })) : y("", !0),
-      u.section.type == "img" ? (e(), z(a0, {
+      s.section.type == "img" ? (e(), z(e0, {
         key: 2,
-        src: u.section.content
+        src: s.section.content
       }, null, 8, ["src"])) : y("", !0)
     ], 64));
   }
@@ -1019,13 +1018,13 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
     parent: Number,
     content: Array
   },
-  setup(u) {
+  setup(s) {
     const l = o("moveColumn");
-    return (i, c) => (e(), t("div", Ze, [
-      (e(!0), t(P, null, D(u.content, (d, $) => (e(), t("div", ye, [
+    return (n, c) => (e(), t("div", Ze, [
+      (e(!0), t(P, null, D(s.content, (d, $) => (e(), t("div", ye, [
         (e(!0), t(P, null, D(d, (r, h) => (e(), z(R, {
-          key: `${u.parent}-${$}-${h}`,
-          index: [u.parent, $, h],
+          key: `${s.parent}-${$}-${h}`,
+          index: [s.parent, $, h],
           isFirst: h === 0,
           isLast: h === d.length - 1,
           totalItems: d.length,
@@ -1037,18 +1036,18 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
           _: 2
         }, 1032, ["index", "isFirst", "isLast", "totalItems", "item"]))), 128)),
         f(O, {
-          index: [u.parent, $]
+          index: [s.parent, $]
         }, null, 8, ["index"]),
-        f(F, {
-          onClick: (r) => H(l)([u.parent, $]),
+        f(E, {
+          onClick: (r) => H(l)([s.parent, $]),
           class: "w-full flex justify-center py-1 rounded-none! border-0"
         }, {
           default: A(() => [
             b(f(H(V1), { size: 18 }, null, 512), [
-              [x, $ == 0]
+              [C, $ == 0]
             ]),
             b(f(H(K0), { size: 18 }, null, 512), [
-              [x, $ == 1]
+              [C, $ == 1]
             ])
           ]),
           _: 2
@@ -1056,38 +1055,38 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
       ]))), 256))
     ]));
   }
-}), we = { class: "canva w-full rounded-xs border border-zinc-300" }, Me = { class: "w-full px-2 bg-zinc-100 flex justify-end items-center" }, ke = { class: "w-full p-6" }, be = { class: "w-full" }, ze = { class: "w-full p-3" }, xe = {
+}), we = { class: "canva w-full rounded-xs border border-zinc-300" }, Me = { class: "w-full px-2 bg-zinc-100 flex justify-end items-center" }, ke = { class: "w-full p-6" }, be = { class: "w-full" }, ze = { class: "w-full p-3" }, Ce = {
   __name: "Canva",
-  setup(u) {
-    const l = o("config"), i = S([]), c = S(!1), d = new l0(), $ = (p) => typeof p == "number" ? i.value : i.value[p[0]].content[p[1]], r = (p) => typeof p == "number" ? p : p[2];
+  setup(s) {
+    const l = o("config"), n = S([]), c = S(!1), d = new a0(), $ = (p) => typeof p == "number" ? n.value : n.value[p[0]].content[p[1]], r = (p) => typeof p == "number" ? p : p[2];
     function h(p) {
-      const g = $(p), V = r(p), C = g[V - 1];
-      g[V - 1] = g[V], g[V] = C;
+      const g = $(p), V = r(p), x = g[V - 1];
+      g[V - 1] = g[V], g[V] = x;
     }
     function v(p) {
-      const g = $(p), V = r(p), C = g[V + 1];
-      g[V + 1] = g[V], g[V] = C;
+      const g = $(p), V = r(p), x = g[V + 1];
+      g[V + 1] = g[V], g[V] = x;
     }
     function m(p, g, V) {
       if (V) {
-        i.value[V[0]].content[V[1]].push({ type: p, content: g });
+        n.value[V[0]].content[V[1]].push({ type: p, content: g });
         return;
       }
-      i.value.push({ type: p, content: g });
+      n.value.push({ type: p, content: g });
     }
-    const n = (p) => $(p).splice(r(p), 1);
+    const i = (p) => $(p).splice(r(p), 1);
     function Z() {
-      typeof l.value.saveAction > "u" || l.value.saveAction(JSON.stringify(i.value));
+      typeof l.value.saveAction > "u" || l.value.saveAction(JSON.stringify(n.value));
     }
     function _(p) {
-      const g = p[1] == 0 ? 1 : 0, V = i.value[p[0]], C = V.content[g];
-      V.content[g] = V.content[p[1]], V.content[p[1]] = C;
+      const g = p[1] == 0 ? 1 : 0, V = n.value[p[0]], x = V.content[g];
+      V.content[g] = V.content[p[1]], V.content[p[1]] = x;
     }
-    return W(
+    return I(
       () => l.value.content,
-      (p) => i.value = p,
+      (p) => n.value = p,
       { deep: !0 }
-    ), L("moveUp", h), L("moveDown", v), L("add", m), L("remove", n), L("moveColumn", _), L("titles", d), (p, g) => (e(), t("div", we, [
+    ), L("moveUp", h), L("moveDown", v), L("add", m), L("remove", i), L("moveColumn", _), L("titles", d), (p, g) => (e(), t("div", we, [
       a("div", Me, [
         f(N, {
           onClick: g[0] || (g[0] = (V) => c.value = !c.value),
@@ -1118,25 +1117,25 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
         })
       ]),
       b(a("div", ke, [
-        f(t0, { sections: i.value }, null, 8, ["sections"])
+        f(l0, { sections: n.value }, null, 8, ["sections"])
       ], 512), [
-        [x, c.value]
+        [C, c.value]
       ]),
       b(a("div", be, [
         a("div", ze, [
-          (e(!0), t(P, null, D(i.value, (V, C) => (e(), z(R, {
-            key: C,
-            index: C,
-            isFirst: C === 0,
-            isLast: C === i.value.length - 1,
-            totalItems: i.value.length,
+          (e(!0), t(P, null, D(n.value, (V, x) => (e(), z(R, {
+            key: x,
+            index: x,
+            isFirst: x === 0,
+            isLast: x === n.value.length - 1,
+            totalItems: n.value.length,
             item: V
           }, {
             default: A(() => [
               f(J, { section: V }, null, 8, ["section"]),
               V.type == "col" ? (e(), z(Ae, {
                 key: 0,
-                parent: C,
+                parent: x,
                 content: V.content
               }, null, 8, ["parent", "content"])) : y("", !0)
             ]),
@@ -1145,18 +1144,18 @@ const N = /* @__PURE__ */ I(ge, [["render", me]]), Ve = { class: "w-full" }, He 
         ]),
         f(O)
       ], 512), [
-        [x, !c.value]
+        [C, !c.value]
       ])
     ]));
   }
 };
-class Se {
+class Le {
   /**
    * @param {String} selector CSS selector where to mount the canva.
    * @param {Object} customConfig Custom configuration object.
    */
-  constructor(l, i = {}) {
-    l && (this.config = S(i), Y(xe).provide("config", this.config).mount(l));
+  constructor(l, n = {}) {
+    l && (this.config = S(n), t0(Ce).provide("config", this.config).mount(l));
   }
   /**
    * Set the function to call on save action.
@@ -1176,5 +1175,5 @@ class Se {
   }
 }
 export {
-  Se as PagB
+  Le as Canva
 };
