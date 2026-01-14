@@ -29,5 +29,13 @@ export default defineConfig({
             formats: ['es'],
         },
         cssCodeSplit: true,
+        rollupOptions: {
+            external: ['vue'],
+            output: {
+                globals: {
+                    vue: 'Vue'
+                }
+            }
+        }
     }
 })
