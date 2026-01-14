@@ -1,13 +1,13 @@
-import { g as n, T as a, q as i, a as r, B as p, i as f, o as u, p as l, C as g } from "./Page-DjQGXeEO.js";
+import { i as a, g as n, T as i, q as r, p, a as f, B as u, o as l, C as g } from "./Page-CLoUhGLY.js";
 const _ = {
   __name: "Page",
   setup(o) {
-    const t = f("config"), e = n([]), c = new a();
-    return i(
+    const t = a("config"), e = n([]), c = new i();
+    return r(
       () => t.value.content,
       (s) => e.value = s,
       { deep: !0 }
-    ), l("titles", c), (s, m) => (u(), r(p, { sections: e.value }, null, 8, ["sections"]));
+    ), p("titles", c), (s, m) => (l(), f(u, { sections: e.value }, null, 8, ["sections"]));
   }
 };
 class h {

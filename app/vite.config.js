@@ -20,18 +20,12 @@ export default defineConfig({
             '@': fileURLToPath(new URL('./src', import.meta.url))
         },
     },
-    define: {
-        'process.env.NODE_ENV': JSON.stringify('production'),
-        'process.env': {},
-        'process': {},
-    },
     build: {
         lib: {
             entry: {
                 canva: resolve(__dirname, 'src/canva.js'),
                 page: resolve(__dirname, 'src/page.js'),
             },
-            name: ['Canva', 'Page'],
             formats: ['es'],
         },
         cssCodeSplit: true,
