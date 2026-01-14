@@ -20,6 +20,11 @@ export default defineConfig({
             '@': fileURLToPath(new URL('./src', import.meta.url))
         },
     },
+    define: {
+        'process.env.NODE_ENV': JSON.stringify('production'),
+        'process.env': {},
+        'process': {},
+    },
     build: {
         lib: {
             entry: {
@@ -28,14 +33,6 @@ export default defineConfig({
             },
             name: ['Canva', 'Page'],
             formats: ['es'],
-        },
-        rollupOptions: {
-            // external: ['vue'],
-            output: {
-                globals: {
-                    vue: 'Vue'
-                },
-            }
         },
         cssCodeSplit: true,
     }
