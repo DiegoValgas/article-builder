@@ -27,15 +27,17 @@ export default defineConfig({
                 page: resolve(__dirname, 'src/page.js'),
             },
             formats: ['es'],
+            fileName: '[name]',
         },
         cssCodeSplit: true,
         rollupOptions: {
-            external: ['vue'],
             output: {
-                globals: {
-                    vue: 'Vue'
-                }
-            }
+                dir: 'dist',
+                format: 'es',
+                entryFileNames: '[name].js',
+                chunkFileNames: 'chunks/[name]-[hash].js',
+                assetFileNames: '[name][extname]',
+            },
         }
     }
 })
