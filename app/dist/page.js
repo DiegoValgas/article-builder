@@ -1,22 +1,23 @@
-import { i as a, g as n, T as i, q as r, p, a as f, B as u, o as l, C as g } from "./chunks/Page-CLoUhGLY.js";
-const _ = {
+import { inject as i, ref as o, watch as r, provide as a, createBlock as f, openBlock as p, createApp as u } from "vue";
+import { T as l, c as _ } from "./chunks/Page-LcUnlR2K.js";
+const g = {
   __name: "Page",
-  setup(o) {
-    const t = a("config"), e = n([]), c = new i();
+  setup(c) {
+    const t = i("config"), e = o([]), s = new l();
     return r(
       () => t.value.content,
-      (s) => e.value = s,
+      (n) => e.value = n,
       { deep: !0 }
-    ), p("titles", c), (s, m) => (l(), f(u, { sections: e.value }, null, 8, ["sections"]));
+    ), a("titles", s), (n, m) => (p(), f(_, { sections: e.value }, null, 8, ["sections"]));
   }
 };
-class h {
+class d {
   /**
    * @param {String} selector CSS selector where to mount the page.
    * @param {Object} customConfig Custom configuration object.
    */
   constructor(t, e = {}) {
-    t && (this.config = n(e), g(_).provide("config", this.config).mount(t));
+    t && (this.config = o(e), u(g).provide("config", this.config).mount(t));
   }
   /**
    * Set the content that build the page.
@@ -28,5 +29,5 @@ class h {
   }
 }
 export {
-  h as Page
+  d as Page
 };
